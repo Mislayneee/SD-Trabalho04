@@ -55,7 +55,7 @@ Após selecionar o arquivo, o conteúdo é automaticamente enviado ao Mestre. O 
 
 ![Resultado exibido na GUI do cliente](imgs/img4.png)
 
-É importante destacar que, no código do cliente, se executado em uma maquina diferente da que o mestre esta executando, é necessário que as duas estejam na mesma rede, além de que o endereço `localhost` usado na URL de envio precisa ser substituído pelo **endereço IPv4 da Rede sem Fio Wi-Fi da máquina onde o Mestre está rodando**. Esse IP pode ser encontrado executando no terminal do Windows o comando:
+É importante destacar que, no código do cliente, ao ser executado em uma maquina diferente da do mestre, é necessário que as duas estejam na mesma rede, além de que o endereço `localhost` usado na URL de envio precisa ser substituído pelo **endereço IPv4 da Rede sem Fio Wi-Fi da máquina onde o Mestre está rodando**. Esse IP pode ser encontrado executando no terminal do Windows o comando:
 
 ```bash
 ipconfig
