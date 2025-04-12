@@ -1,3 +1,5 @@
+# SD-Trabalho04
+
 ## **Descrição do Projeto de Sistemas Distribuídos – Middleware com Java e Docker**
 
 Este projeto teve como objetivo a construção de um sistema distribuído, utilizando a linguagem Java, com comunicação entre componentes realizada por meio de requisições HTTP. A arquitetura adotada foi do tipo mestre-escravo, com os componentes principais sendo o **Cliente (com interface gráfica)**, o **Servidor Mestre** e dois **Servidores Escravos**. O sistema foi executado em containers Docker, simulando um ambiente distribuído real, conforme exigido no enunciado da atividade (Atividade 4 – THREADS, MIDDLEWARE, PARALELISMO, DOCKER).
@@ -49,4 +51,4 @@ URL url = new URL("http://192.168.0.105:8080/processar");
 
 Com essa configuração feita corretamente, o cliente se comunica com o servidor Mestre, que então distribui a tarefa entre os dois Escravos. O resultado final, contendo a contagem de letras e de números no arquivo selecionado, é exibido diretamente na janela do cliente.
 
-# SD-Trabalho04
+
