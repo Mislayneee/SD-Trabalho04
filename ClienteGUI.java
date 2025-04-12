@@ -39,7 +39,7 @@ public class ClienteGUI extends JFrame {//criar a janela grafica
 
     private void enviarArquivo(File file) {
         try {
-            URL url = new URL("http://192.168.18.58:8080/processar");
+            URL url = new URL("http://localhost:8080/processar");
             HttpURLConnection conn = (HttpURLConnection) url.openConnection();
             conn.setDoOutput(true);
             conn.setRequestMethod("POST");
