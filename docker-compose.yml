@@ -1,0 +1,24 @@
+services:
+  mestre:
+    build:
+      context: .
+      dockerfile: Dockerfile.mestre
+    ports:
+      - "8080:8080"
+    depends_on:
+      - escravo1
+      - escravo2
+
+  escravo1:
+    build:
+      context: .
+      dockerfile: Dockerfile.escravo1
+    ports:
+      - "8081:8081"
+
+  escravo2:
+    build:
+      context: .
+      dockerfile: Dockerfile.escravo2
+    ports:
+      - "8082:8082"

@@ -1,0 +1,5 @@
+FROM openjdk:17
+WORKDIR /app
+COPY Escravo1.java Escravo1.java
+RUN javac Escravo1.java
+CMD ["java", "Escravo1"]
